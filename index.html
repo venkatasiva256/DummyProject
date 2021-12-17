@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form</title>
+	<link rel="stylesheet"  href="C:\Fontawesome\css\all.css">
+	<style>
+		body
+		{
+			background-image:url("BG1.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			color: rgb(	111, 122, 122);
+		}
+		#org
+		{
+			margin: 80px  auto;
+			width: 500px;
+			border-radius: 	40px 5px 40px 5px;
+			box-shadow: 0 0 20px white;
+		}
+		h1{
+			margin-left: 150px;	
+		}
+		.alter
+		{
+				margin:10px auto;
+				width:40%;
+		}
+		.alter input[type="text"],input[type="email"],input[type="password"],input[type="number"]
+		{
+			height: 30px;
+			width: 	200px;
+			border-radius: 	10px;
+			border: none;
+			outline: none;
+			background:none;
+			border-bottom: 3px solid silver;
+			color: silver;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+		}
+		select
+		{
+			margin:10px auto;
+			width: 	200px;
+			height: 30px;
+			border-radius: 	10px;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			color: rgb(78, 88, 88);
+			border: none;
+			outline: none;
+		}
+		.alter input[type="submit"]
+		{
+			width: 	180px;
+			height:30px;
+			margin:10px;
+			margin-bottom: 30px;
+			border-radius: 	10px;
+			background-color: rgb(36, 35, 34);
+			border: none;
+			outline: none;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			font-size: 20px;
+			color:silver;
+		}
+		::placeholder
+		{
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			color: rgb(	111, 122, 122);
+		}
+		input[type="submit"]:hover
+		{
+			cursor:pointer;
+			box-shadow: 0 0 10px silver;
+		}
+		input[type="text","e-mail","password","number"]:focus
+		{
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			color: silver;
+		}
+		.far
+		{
+			font-size: 70px;
+			background-color: silver;
+			margin-top: -30px;
+			border-radius: 50%;
+			border: 5px solid black;
+		}
+		#icon
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="org">
+		<div id="icon">
+			<span class="far fa-user-circle"></span>
+		</div>
+		<h1>Log In Here</h1>
+		<div class="alter">
+			<input type="text" placeholder="Username">
+		</div>
+		<div class="alter">
+			<input type="email" placeholder="E-mail">
+		</div>
+		<div class="alter">
+			<input type="password" placeholder="Password">
+		</div>
+		<div class="alter">
+			<input type="number" placeholder="Mobile number">
+		</div>
+		<div class="alter">
+			<select>
+				<option>Select Designation</option>
+				<option>Manager</option>
+				<option>Sr.Software Engineer</option>
+				<option>Jr.Software Engineer</option>
+				<option>Team Lead</option>
+			</select>
+		</div >
+		<div class="alter">
+			<input type="submit">
+		</div>
+	</div>
+</body>
+</html>
